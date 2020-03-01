@@ -31,7 +31,7 @@ header > nav > ul > li {
 
 h3 {
     font-size: 150px;
-    text-align: center;
+    /*text-align: center;*/
     color: rgba(133, 80, 11, 0.445);
 }
 /*main*/
