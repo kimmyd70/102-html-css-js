@@ -1,0 +1,59 @@
+* {background-color: rgb(207, 189, 166);
+margin: 5px;
+padding: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/*header only*/
+header > img {
+    border: goldenrod solid 5px;
+    padding: 25px;
+    height: 2000px;
+    margin-left: 1200px;
+
+}
+
+header > h1 {
+font-size: 200px;
+margin-left: 1250px;
+margin-top: 200px;}
+
+header > nav > ul {
+    margin-left: 2200px;}
+
+header > nav > ul > li {
+    display:inline-block;
+    margin: 150px;
+    padding: 50px;
+    border: goldenrod solid 10px;
+    border-radius: 20%;
+    font-size: 100px;
+}
+
+/*main*/
+main > section {
+    display: inline-block;
+    padding: 150px;
+    width: fit-content;}
+
+/*section image*/
+main > section > img {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: goldenrod solid 5px;
+    padding: 25px;
+    width: 2000px}
+
+/*section words*/
+main > section > article > p {
+    display: inline-block;
+    width: 1000px;
+    font-size: 50px;
+    margin-left: 800px;
+    margin-top: 100px;}
+
+footer {
+    font-size: 50px;
+    border: goldenrod solid 5px;
+    padding: 100px;
+    margin: 200px;}
