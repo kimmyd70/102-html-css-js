@@ -29,6 +29,11 @@ header > nav > ul > li {
     font-size: 100px;
 }
 
+h3 {
+    font-size: 150px;
+    text-align: center;
+    color: rgba(133, 80, 11, 0.445);
+}
 /*main*/
 main > section {
     display: inline-block;

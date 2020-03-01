@@ -5,6 +5,6 @@ if (pain === 'yes') {
 } else if (pain === 'no') {
     emoji = '<img src="images/thumbs-up.png" alt="Thumbs-up" />';
 };
-document.write(+ emoji +);
+document.write(emoji);
 
 //references code written by rkgallaway//

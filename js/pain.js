@@ -7,6 +7,6 @@ if (pain === 'yes') {
 } else {
     suggest = 'Please answer yes or no';
 };
-document.write('<h1>' + suggest + '</h1>');
+document.write('<h3>' + suggest + '</h3>');
 
 //references code written by rkgallaway//
