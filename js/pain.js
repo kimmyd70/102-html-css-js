@@ -5,7 +5,7 @@ if (pain === 'yes') {
 } else if (pain === 'no') {
     suggest = 'Great! You can sleep anywhere!';
 } else {
-    suggest = 'Please answer yes or no';
+    suggest = 'Please hit refresh and answer yes or no';
 };
 document.write('<h3>' + suggest + '</h3>');
 
