@@ -1,4 +1,4 @@
-// test these in the console; app.js loaded in HEAD of the index//
+// test these in the console; app.js NEEDS TO BE loaded in HEAD of the index//
 
 function myFaveColor(){
     console.log('Kim\'s fave color is: Cobalt');
