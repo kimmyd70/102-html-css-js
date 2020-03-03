@@ -1,4 +1,5 @@
 // test these in the console; app.js NEEDS TO BE loaded in HEAD of the index//
+// sp + sp, spaces and pluses are not necessary but better readable for human//
 
 function myFaveColor(){
     console.log('Kim\'s fave color is: Cobalt');
