@@ -1,30 +1,26 @@
-// test these in the console; app.js NEEDS TO BE loaded in HEAD of the index//
-// sp + sp, spaces and pluses are not necessary but better readable for human//
-
-function myFaveColor(){
-    console.log('Kim\'s fave color is: Cobalt');
-
+function name() {
+    var name = prompt('Hi! What\'s your name?');
+   return document.write('<h3>'+ 'Welcome, ' + name + '</h3>');
 }
 
-//MUST provide a **parameter** when you call the function (); when you put the stuff//
-//in the () it becomes an **arguement**//
-//if fn wants a string, it will take a number or concatonate//
-
-function faveColor(color) {
-    console.log('Kim\'s Fave color is: ' + color);
+function pain() {
+    var pain = prompt('Do you have back pain?');
+var suggest;
+if (pain === 'yes') {
+    suggest = 'Yikes! Try a firm bed';
+} else if (pain === 'no') {
+    suggest = 'Great! You can sleep anywhere!';
+} else {
+    suggest = 'Please hit refresh and answer yes or no';
+};
+    return document.write('<h3>' + suggest + '</h3>');
+    ;
 }
 
-//there is a second way to write functions--look it up//
+function checkSite() {
+    var check;
+    check = 'Check our site for suggestions!'
 
-var sayHelloCookie = function(){
-    return "Hello Cookie";
-}
-
-var sayHello = function (person){
-    var response = person;
-    return "Hello " = response;
-}
-
-function personsFaveColor(name, color){
-    console.log(name + '\'s fave color is: ' + color);
+    return document.write('<h3>' + check + '</h3>');
+    ;
 }
