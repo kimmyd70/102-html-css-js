@@ -3,6 +3,12 @@ margin: 5px;
 padding: 5px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
+h3 {
+    font-size: 150px;
+    text-align: center;
+    color: rgb(97, 59, 10);
+}
+
 /*header only*/
 header > img {
     border: goldenrod solid 5px;
@@ -28,10 +34,6 @@ header > nav > ul > li {
     font-size: 100px;
 }
 
-h3 {
-    font-size: 150px;
-    text-align: center;
-    color: rgb(97, 59, 10);}*/
     
 /*main*/
 main > section {

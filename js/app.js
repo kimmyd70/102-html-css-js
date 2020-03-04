@@ -22,5 +22,4 @@ function checkSite() {
     check = 'Check our site for suggestions!'
 
     return document.write('<h3>' + check + '</h3>');
-    ;
 }
