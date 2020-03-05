@@ -14,16 +14,19 @@ header > img {
     border: goldenrod solid 5px;
     padding: 25px;
     height: 500px;
-    margin-left: 300px;
+    /*margin-left: 300px;*/
+    float: left;
 }
 
-header > h1 {
-font-size: 200px;
-margin-left: 310px;
-margin-top: 200px;}
+/*header > h1 {
+font-size: 150px;
+float: center;
+/* margin-left: 310px;
+margin-top: 200px;
+text-align: center;}*/
 
-header > nav > ul {
-    margin-left: 505px;}
+/*header > nav > ul {
+    margin-left: 505px;}*/
 
 header > nav > ul > li {
     display:inline-block;
@@ -43,7 +46,7 @@ main > section {
 
 /*section image*/
 main > section > img {
-    float: left;
+    /*float: left;*/
     margin-top: 100px;
     margin-left: 60px;
     border: goldenrod solid 5px;
