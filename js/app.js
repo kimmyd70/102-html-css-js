@@ -8,11 +8,11 @@ function name() {
 
 function pain() {
     var pain = prompt('Do you have back pain?');
-    var suggest = '';
-            while ((suggest == '') && (suggest !== 'yes' && suggest !== 'no')) {
-                suggest = 'Please hit refresh and answer yes or no';
-                document.write('<h3>' + suggest + '</h3>');
-            }
+    var suggest ;
+            //while (suggest !== 'yes' || suggest !== 'no') {
+                //suggest = 'Please hit refresh and answer yes or no';
+                //document.write('<h3>' + suggest + '</h3>');
+            //}
 
     if (pain === 'yes') {
         suggest = 'Yikes! Try a firm bed';
@@ -21,6 +21,7 @@ function pain() {
     } else if (pain === 'no') {
         suggest = 'Great! You can sleep anywhere!';
         document.write('<h3>' + suggest + '</h3>');
+        
     }
 }
 
