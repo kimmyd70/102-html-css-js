@@ -3,28 +3,24 @@ function name() {
    return document.write('<h3>'+ 'Welcome, ' + name + '</h3>');
 }
 
-//initialize suggest
 
-
-function pain() {
+function pain(){
+    
+    var suggest;
     var pain = prompt('Do you have back pain?');
-    var suggest ;
-            //while (suggest !== 'yes' || suggest !== 'no') {
-                //suggest = 'Please hit refresh and answer yes or no';
-                //document.write('<h3>' + suggest + '</h3>');
-            //}
-
-    if (pain === 'yes') {
+    
+    while (pain !== 'yes' && pain !== 'no') {   
+        pain = prompt ('Please answer yes or no');
+    }
+        if (pain === 'yes') {
         suggest = 'Yikes! Try a firm bed';
         document.write('<h3>' + suggest + '</h3>');
-
-    } else if (pain === 'no') {
-        suggest = 'Great! You can sleep anywhere!';
-        document.write('<h3>' + suggest + '</h3>');
         
-    }
+        } else if (pain === 'no') {
+        suggest = 'Great! You can sleep anywhere!';
+        document.write('<h3>' + suggest + '</h3>');    
+        }
 }
-
 
 function checkSite() {
     var check;

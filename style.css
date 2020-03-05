@@ -1,10 +1,11 @@
-* {background-color: rgb(207, 189, 166);
-margin: 5px;
-padding: 5px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+* {
+    background-color: rgb(207, 189, 166);
+    /*margin: 5px;
+    padding: 5px;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 h3 {
-    font-size: 150px;
+    font-size: 50px;
     text-align: center;
     color: rgb(97, 59, 10);
 }
@@ -13,24 +14,28 @@ h3 {
 header > img {
     border: goldenrod solid 5px;
     padding: 25px;
-    height: 500px;
-    /*margin-left: 300px;*/
+    height: 800px;
     float: left;
+    margin-left: 100px;
 }
 
-/*header > h1 {
+header > h1 {
 font-size: 150px;
-float: center;
-/* margin-left: 310px;
+text-align: center;
+margin-left: 310px;
 margin-top: 200px;
-text-align: center;}*/
+text-align: center;}
 
-/*header > nav > ul {
-    margin-left: 505px;}*/
-
-header > nav > ul > li {
-    display:inline-block;
-    margin: 150px;
+header > nav >ul {
+    align-items: center;
+    margin-left: 1500px;}
+    
+    
+    header > nav > ul > li {
+        display: inline-block;
+        width: fit-content;
+        margin-left: 1000px;
+    margin: 50px;
     padding: 50px;
     border: goldenrod solid 10px;
     border-radius: 20%;
@@ -41,25 +46,25 @@ header > nav > ul > li {
 /*main*/
 main > section {
     display: inline-block;
-    padding: 150px;
-    width: fit-content;}
+    padding: 150px;}
 
 /*section image*/
 main > section > img {
-    /*float: left;*/
+    display: inline-block;
     margin-top: 100px;
     margin-left: 60px;
     border: goldenrod solid 5px;
     padding: 25px;
-    width: 1000px;}
+    width: 500px}
 
 /*section words*/
 main > section > article > p {
     display: inline-block;
-    width: 350px;
+   max-width: 400px;
     font-size: 50px;
     margin-left: 20px;
-    margin-top: 100px;}
+    margin-top: 100px;
+    text-align: center;}
 
 footer {
     font-size: 50px;
