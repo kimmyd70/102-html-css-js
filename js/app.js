@@ -7,10 +7,12 @@ function name() {
 function pain(){
     
     var suggest;
+    var fixIt;
     var pain = prompt('Do you have back pain?');
     
     while (pain !== 'yes' && pain !== 'no') {   
-        pain = prompt ('Please answer yes or no');
+        fixIt = prompt ('Please answer yes or no');
+        pain = fixIt;
     }
         if (pain === 'yes') {
         suggest = 'Yikes! Try a firm bed';
